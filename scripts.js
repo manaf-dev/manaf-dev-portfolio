@@ -1,19 +1,24 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    const menuList = document.querySelectorAll('.menu-list');
     const hamburger = document.querySelector(".toggle_btn");
     const hamburgerMenu = document.querySelector(".hamburger_menu");
     const header = document.getElementById("header")
     
-    
-    hamburger.addEventListener("click", toggleHamburgerMenuMenu);
-    
-    function toggleHamburgerMenuMenu() {
+    hamburger.addEventListener("click", () => {
         hamburgerMenu.classList.toggle("active");
         hamburger.classList.toggle("active");
-    }
-    
-    
+    })
 
+    menuList.forEach(element => {
+        element.addEventListener('click', function () {
+            hamburgerMenu.classList.remove("active")
+            hamburger.classList.remove("active");
+        }
+    )});
+
+
+    
     // add header background color on scroll
     window.addEventListener('scroll', () => {
         if (window.scrollY > 10) {
