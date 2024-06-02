@@ -1,16 +1,4 @@
-:root {
-  --color-main: #71c6dd;
-  --color-main-light: #e1f6fb;
-  --color-dark: #3f4156;
-  --color-dark-medium: #51546e;
-  --color-dark-light: #696d97;
-  --color-light: #e5e5e5;
-  --color-gray: #8b8b8b;
-  --color-light-gray: #b2bdbd;
-  --color-bg: #2d2d39;
-  --color-success: #5dd693;
-  --color-error: #fc4b0b;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
   padding: 0;
@@ -19,7 +7,8 @@
 }
 
 body {
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 16px;
 }
 
@@ -38,8 +27,8 @@ a {
   padding: 10px;
   border: none;
   cursor: pointer;
-  font-size: 1.2em;
-  font-weight: 500;
+  font-size: 1.3em;
+  font-weight: 600;
   color: #fff;
   background-color: #a41a01;
   transition: all 0.3s;
@@ -106,9 +95,9 @@ section {
 }
 
 .navbar .logo p a {
-  font-size: 2rem;
+  font-size: 2.5em;
   color: #101010;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* desktop */
@@ -120,7 +109,7 @@ section {
 
 .navbar a {
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #2d2d39;
 }
 
@@ -195,7 +184,7 @@ section {
 .hero {
   /* height: 80vh; */
   margin-top: 80px;
-  padding: 120px 0;
+  padding: 90px 0;
   background: #f2f6f7;
 }
 
@@ -212,19 +201,21 @@ section {
 
 .hero-title {
   text-align: center;
-  font-size: 2.8em;
+  font-size: 3.5em;
+  font-weight: 700;
   line-height: 1.3;
   letter-spacing: 2px;
   color: #000;
 }
 
 .hero-text {
-  margin: 10px 0 30px 0;
+  margin-top: 10px;
   text-align: center;
   color: #1e2629;
-  font-size: 1.2em;
+  font-size: 1.3em;
   letter-spacing: 1.5px;
   width: 60%;
+  line-height: 1.3;
 }
 
 .hero-contact {
@@ -232,6 +223,7 @@ section {
   flex-direction: row-reverse;
   align-items: center;
   gap: 2rem;
+  margin-top: 50px;
 }
 
 .hero-contact .hero-socials {
@@ -416,8 +408,12 @@ section {
 
 .contact .contact-content .row .handle {
   margin-left: 18px;
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
+}
+.contact .contact-content .row .handle:active {
+  text-decoration: underline;
+  color: #7d141d;
 }
 
 .contact .right form .fields {
@@ -504,7 +500,7 @@ footer a {
 
   .btn {
     padding: 8px 10px;
-    font-size: 14px;
+    font-size: 1em;
   }
 
   .navbar .navbar-socials,
@@ -525,42 +521,6 @@ footer a {
   }
 
 
-  /* .hamburger_menu {
-    display: block;
-    position: fixed;
-    left: 100%;
-    top: 5rem;
-    flex-direction: column;
-    background-color: #fff;
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-  }
-
-  .hamburger_menu.active {
-    left: 0;
-  }
-
-  .hamburger_menu li {
-    margin: 2.5rem 0;
-  }
-
-  .toggle_btn.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .toggle_btn.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .toggle_btn.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  } */
-
-
-
   .hero {
     padding: 80px 0;
   }
@@ -570,11 +530,12 @@ footer a {
   }
 
   .hero-title {
-    font-size: 1.8em;
+    font-size: 2.5em;
+    line-height: 1.2;
   }
 
   .hero-text {
-    font-size: 0.7em;
+    font-size: 1.1em;
     width: 75%;
   }
 
@@ -604,7 +565,7 @@ footer a {
   }
 
   .about-left p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 2rem;
   }
 
@@ -638,7 +599,7 @@ footer a {
   }
 
   .project-card .card-title {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   .contact .contact-content {
@@ -651,7 +612,7 @@ footer a {
   }
 
   .contact .contact-content .text {
-    font-size: 15px;
+    font-size: 1.1em;
     font-weight: 600;
     margin-bottom: 10px;
   }
@@ -662,7 +623,7 @@ footer a {
   }
 
   footer p {
-    font-size: 15px;
+    font-size: 1.2em;
   }
 }
 
@@ -696,11 +657,11 @@ footer a {
   }
 
   .hero-title {
-    font-size: 2.5em;
+    font-size: 3em;
   }
 
   .hero-text {
-    font-size: 0.8em;
+    font-size: 1.2em;
   }
 
   .hero-contact .hero-socials svg {
