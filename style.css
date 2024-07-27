@@ -182,7 +182,7 @@ section {
 .hero {
   /* height: 80vh; */
   margin-top: 80px;
-  padding: 90px 0;
+  padding: 80px 0;
   background: #f2f6f7;
 }
 
@@ -319,7 +319,7 @@ section {
 
 .projects-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 30px;
   flex-wrap: wrap;
 }
@@ -331,7 +331,7 @@ section {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
-  height: 500px;
+  height: 22rem;
   width: 30%;
 }
 
@@ -340,7 +340,7 @@ section {
 }
 
 .project-card .top {
-  height: 40%;
+  height: 80%;
   width: 100%;
 }
 
@@ -355,16 +355,8 @@ section {
   border-top: 1px solid gainsboro;
 }
 
-.project-card .card-text {
-  color: hsl(198, 15%, 17%);
-  font-size: 1.1em;
-  line-height: 1.5;
-  margin-bottom: 15px;
-  text-align: justify;
-}
-
 .project-card .card-title {
-  margin: 0px 0 10px 0;
+  margin: 10px 0 15px 0;
   font-size: 1.2em;
 }
 
@@ -491,7 +483,7 @@ footer a {
   }
 
   .container {
-    padding: 0 50px;
+    padding: 0 20px;
   }
 
   .btn {
@@ -517,7 +509,7 @@ footer a {
   }
 
   .hero {
-    padding: 80px 0;
+    padding: 60px 0;
   }
 
   .hero-content {
@@ -531,7 +523,7 @@ footer a {
 
   .hero-text {
     font-size: 1.1em;
-    width: 75%;
+    width: 90%;
   }
 
   .hero-contact {
@@ -622,7 +614,7 @@ footer a {
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
   .container {
-    padding: 0 60px;
+    padding: 0 20px;
   }
   .navbar .navbar-socials,
   .navbar-links {
@@ -731,7 +723,7 @@ footer a {
 /* Media Query for Tablets Ipads landscape mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
-    padding: 0 60px;
+    padding: 0 30px;
   }
 
   .section-title {
@@ -754,7 +746,7 @@ footer a {
   }
 
   .project-card {
-    width: 40%;
+    width: 45%;
     /* margin: auto; */
   }
 }
