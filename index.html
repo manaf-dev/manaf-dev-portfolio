@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="PortfoLio Site of Manaf" />
+    <meta name="description" content="Portfolio of Mohammed Manaf - Django Developer & Tech Enthusiast" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -12,7 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Manaf Dev</title>
+    <title>Mohammed Manaf - Django Developer</title>
   </head>
   <body>
     <header id="header" class="header">
@@ -23,9 +23,9 @@
 
         <ul class="navbar-links">
           <li><a href="#home">Home</a></li>
-          <li><a href="#about_sec">About</a></li>
-          <li><a href="#projects_sec">Projects</a></li>
-          <li><a href="#contact_sec">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="toggle_btn">
@@ -37,288 +37,287 @@
 
       <ul class="hamburger_menu">
         <li><a class="menu-list" href="#home">Home</a></li>
-        <li><a class="menu-list" href="#about_sec">About</a></li>
-        <li><a class="menu-list" href="#projects_sec">Projects</a></li>
-        <li><a class="menu-list" href="#contact_sec">Contact</a></li>
+        <li><a class="menu-list" href="#about">About</a></li>
+        <li><a class="menu-list" href="#projects">Projects</a></li>
+        <li><a class="menu-list" href="#contact">Contact</a></li>
       </ul>
     </header>
 
     <main>
+      <!-- Hero Section -->
       <section class="hero" id="home">
         <div class="container">
           <div class="hero-content">
-            <p class="hero-text">Hello, I'm a</p>
-            <p class="hero-title">Django Developer</p>
-            <!-- <h4 class="hero-subtitle">Django Developer</h4> -->
-            <p class="hero-text">
-              My name is Mohammed Manaf, I am a tech enthusiast and a passionate
-              web developer. I enjoy the process of learning and building web
-              applications with Django.
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-title">Mohammed Manaf</h1>
+            <p class="hero-subtitle">Django Developer & Tech Enthusiast</p>
+            <p class="hero-description">
+              I am a passionate web developer dedicated to creating innovative solutions 
+              with Django and modern web technologies. I enjoy the process of learning 
+              and building applications that make a meaningful impact.
             </p>
-            <div class="hero-contact">
-              <a
-                href="https://github.com/manaf-dev"
-                class="btn hero-btn no-line"
-              >
-                <i class="fa-brands fa-github" style="color: #ffffff"></i>
-                Code
+            <div class="hero-actions">
+              <a href="https://github.com/manaf-dev" class="btn btn-primary" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                View My Code
               </a>
-              <a href="#projects_sec" class="btn hero-btn line">Portfolio</a>
-            </div>
-            <!-- </div> -->
-          </div>
-        </div>
-      </section>
-      <div class="tech-stack">
-        <marquee class="stack-logos">
-          <img src="imgs/html.png" alt="html-logo" />
-          <img src="imgs/css.png" alt="css-logo" />
-          <img src="imgs/JavaScript-logo.png" alt="JavaScript-logo" />
-          <img src="imgs/Python-logo-notext.svg.png" alt="python-logo" />
-          <img src="imgs/django.png" alt="django-logo" />
-          <img src="imgs/mysql.png" alt="django-logo" />
-          <img src="imgs/postgresql.png" alt="django-logo" />
-          <img src="imgs/git.png" alt="django-logo" />
-        </marquee>
-      </div>
-      <!-- About Section -->
-      <section class="about" id="about_sec">
-        <div class="container">
-          <p class="section-title">About Me</p>
-          <h2 class="section-subtitle">Learn more about me.</h2>
-          <div class="about-content">
-            <div class="about-left">
-              <p>
-                As a passionate web developer, I am dedicated to honing my
-                skills in backend development and technology. I am proficient in
-                python programming language and SQL, and tools such as Git and
-                GitHub. I am always eager to learn and adapt new technologies.
-                My goal is to leverage my skills and experience to contribute to
-                innovative tech solutions and make a meaningful impact in the
-                industry
-              </p>
-              <p>
-                Feel free to connect with me to discuss technology,
-                collaboration opportunities, or to simply share insights.
-              </p>
-              <a href="#contact_sec" class="btn about-btn">Connect With Me </a>
-            </div>
-            <div class="about-right">
-              <figure class="img-container">
-                <img src="imgs/profile.png" alt="profile" />
-              </figure>
+              <a href="#projects" class="btn btn-outline">
+                Explore Projects
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- projects Section -->
-      <section class="projects" id="projects_sec">
+      <!-- Tech Stack Section -->
+      <section class="tech-stack">
         <div class="container">
-          <p class="section-title">Projects</p>
-          <h2 class="section-subtitle">My Portfolio</h2>
-          <ul class="projects-list">
-            <li class="project-card">
-              <div class="top">
-                <img src="imgs/voting.jpg" alt="Service icon" />
+          <div class="tech-grid">
+            <div class="tech-item">
+              <img src="imgs/html.png" alt="HTML" />
+              <span class="tech-name">HTML</span>
+            </div>
+            <div class="tech-item">
+              <img src="imgs/css.png" alt="CSS" />
+              <span class="tech-name">CSS</span>
+            </div>
+            <div class="tech-item">
+              <img src="imgs/JavaScript-logo.png" alt="JavaScript" />
+              <span class="tech-name">JavaScript</span>
+            </div>
+            <div class="tech-item">
+              <img src="imgs/Python-logo-notext.svg.png" alt="Python" />
+              <span class="tech-name">Python</span>
+            </div>
+            <div class="tech-item">
+              <img src="imgs/django.png" alt="Django" />
+              <span class="tech-name">Django</span>
+            </div>
+            <div class="tech-item">
+              <img src="imgs/mysql.png" alt="MySQL" />
+              <span class="tech-name">MySQL</span>
+            </div>
+            <div class="tech-item">
+              <img src="imgs/postgresql.png" alt="PostgreSQL" />
+              <span class="tech-name">PostgreSQL</span>
+            </div>
+            <div class="tech-item">
+              <img src="imgs/git.png" alt="Git" />
+              <span class="tech-name">Git</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-title">About Me</p>
+            <h2 class="section-subtitle">Passionate About Technology</h2>
+            <p class="section-description">
+              Learn more about my journey, skills, and what drives my passion for web development.
+            </p>
+          </div>
+          
+          <div class="about-content">
+            <div class="about-text-content">
+              <p class="about-text">
+                As a passionate web developer, I am dedicated to honing my skills in backend 
+                development and technology. I am proficient in Python programming language and SQL, 
+                and tools such as Git and GitHub. I am always eager to learn and adapt to new technologies.
+              </p>
+              <p class="about-text">
+                My goal is to leverage my skills and experience to contribute to innovative tech 
+                solutions and make a meaningful impact in the industry. I believe in writing clean, 
+                maintainable code and following best practices in software development.
+              </p>
+              <p class="about-text">
+                Feel free to connect with me to discuss technology, collaboration opportunities, 
+                or to simply share insights about the ever-evolving world of web development.
+              </p>
+              <a href="#contact" class="btn btn-primary">Let's Connect</a>
+            </div>
+            <div class="about-image">
+              <img src="imgs/profile.png" alt="Mohammed Manaf" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-title">My Work</p>
+            <h2 class="section-subtitle">Featured Projects</h2>
+            <p class="section-description">
+              A collection of projects that showcase my skills and passion for web development.
+            </p>
+          </div>
+          
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image">
+                <img src="imgs/voting.jpg" alt="E-Voting System" />
               </div>
-              <div class="bottom">
-                <h3 class="card-title">
-                  <a
-                    href="https://github.com/manaf-dev/e-voting-system"
-                    target="_blank"
-                  >
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="https://github.com/manaf-dev/e-voting-system" target="_blank">
                     E-Voting System
-                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </h3>
               </div>
-            </li>
-            <li class="project-card">
-              <div class="top">
-                <img src="imgs/chatapp.png" alt="Service icon" />
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="imgs/chatapp.png" alt="Chat Application" />
               </div>
-              <div class="bottom">
-                <h3 class="card-title">
-                  <a
-                    href="https://github.com/manaf-dev/Chat-App"
-                    target="_blank"
-                  >
-                    Chat App
-                    <i class="fa-brands fa-github"></i>
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="https://github.com/manaf-dev/Chat-App" target="_blank">
+                    Real-time Chat App
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </h3>
               </div>
-            </li>
-            <li class="project-card">
-              <div class="top">
-                <img src="imgs/blog.png" alt="Service icon" />
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="imgs/blog.png" alt="Blog Website" />
               </div>
-              <div class="bottom">
-                <h3 class="card-title">
-                  <a
-                    href="https://github.com/manaf-dev/techrems"
-                    target="_blank"
-                  >
-                    Blog Site
-                    <i class="fa-brands fa-github"></i>
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="https://github.com/manaf-dev/techrems" target="_blank">
+                    Tech Blog Platform
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </h3>
               </div>
-            </li>
-            <li class="project-card">
-              <div class="top">
-                <img src="imgs/donate.jpg" alt="Service icon" />
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="imgs/donate.jpg" alt="Donations Tracker" />
               </div>
-              <div class="bottom">
-                <h3 class="card-title">
-                  <a
-                    href="https://github.com/manaf-dev/Donations-Tracker"
-                    target="_blank"
-                  >
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="https://github.com/manaf-dev/Donations-Tracker" target="_blank">
                     Donations Tracker
-                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </h3>
               </div>
-            </li>
-            <li class="project-card">
-              <div class="top">
-                <img src="imgs/store.png" alt="Service icon" />
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="imgs/store.png" alt="Sales Management System" />
               </div>
-              <div class="bottom">
-                <h3 class="card-title">
-                  <a
-                    href="https://github.com/manaf-dev/Phone-store-system"
-                    target="_blank"
-                  >
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="https://github.com/manaf-dev/Phone-store-system" target="_blank">
                     Sales Management System
-                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </h3>
               </div>
-            </li>
-            <li class="project-card">
-              <div class="top">
-                <img src="imgs/url.png" alt="Service icon" />
+            </article>
+
+            <article class="project-card">
+              <div class="project-image">
+                <img src="imgs/url.png" alt="URL Shortener" />
               </div>
-              <div class="bottom">
-                <h3 class="card-title">
-                  <a
-                    href="https://github.com/manaf-dev/URL-Shortner"
-                    target="_blank"
-                  >
-                    URL Shortner
-                    <i class="fa-brands fa-github"></i>
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="https://github.com/manaf-dev/URL-Shortner" target="_blank">
+                    URL Shortener Service
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </h3>
               </div>
-            </li>
-          </ul>
+            </article>
+          </div>
         </div>
       </section>
 
       <!-- Contact Section -->
-
-      <section class="contact" id="contact_sec">
+      <section class="contact" id="contact">
         <div class="container">
-          <p class="section-title">Contact me</p>
-          <h2 class="section-subtitle">How you can find me.</h2>
+          <div class="section-header">
+            <p class="section-title">Get In Touch</p>
+            <h2 class="section-subtitle">Let's Work Together</h2>
+            <p class="section-description">
+              I'm always interested in new opportunities and collaborations.
+            </p>
+          </div>
 
           <div class="contact-content">
-            <div class="column left">
-              <div class="text">Get in Touch</div>
+            <div class="contact-info">
+              <h3>Connect With Me</h3>
               <p>
-                Please you can reach out to me on any of the social media
-                handles below let's have a good converstation.
+                I'm always open to discussing new opportunities, interesting projects, 
+                or just having a conversation about technology and web development.
               </p>
-              <div class="icons">
-                <div class="row">
+              
+              <div class="contact-links">
+                <a href="https://www.linkedin.com/in/manaf-mohammed" target="_blank" class="contact-link">
                   <i class="fa-brands fa-linkedin"></i>
-                  <p class="handle">
-                    <a
-                      href="https://www.linkedin.com/in/manaf-mohammed"
-                      target="_blank"
-                      >@manaf-mohammed</a
-                    >
-                  </p>
-                </div>
-                <div class="row">
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://x.com/manaf_dev" target="_blank" class="contact-link">
                   <i class="fa-brands fa-x-twitter"></i>
-                  <p class="handle">
-                    <a href="https://x.com/manaf_dev" target="_blank"
-                      >@manaf_dev</a
-                    >
-                  </p>
-                </div>
-                <div class="row">
+                  <span>Twitter</span>
+                </a>
+                <a href="https://github.com/manaf-dev" target="_blank" class="contact-link">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://facebook.com/mManaf.dev/" target="_blank" class="contact-link">
                   <i class="fa-brands fa-facebook"></i>
-                  <p class="handle">
-                    <a href="https://facebook.com/mManaf.dev/" target="_blank"
-                      >@mManaf.dev</a
-                    >
-                  </p>
-                </div>
-                <div class="row">
+                  <span>Facebook</span>
+                </a>
+                <a href="https://instagram.com/manaf.dev/" target="_blank" class="contact-link">
                   <i class="fa-brands fa-instagram"></i>
-                  <p class="handle">
-                    <a href="https://instagram.com/manaf.dev/" target="_blank"
-                      >@mManaf.dev</a
-                    >
-                  </p>
-                </div>
+                  <span>Instagram</span>
+                </a>
               </div>
             </div>
-            <div class="column right">
-              <div class="text">Message me</div>
-              <form action="#">
-                <div class="fields">
-                  <div class="field name">
-                    <input type="text" id="name" placeholder="Name" required />
-                  </div>
-                  <div class="field email">
-                    <input
-                      type="email"
-                      id="email"
-                      placeholder="Email"
-                      required
-                    />
+
+            <div class="contact-form">
+              <h3>Send a Message</h3>
+              <form>
+                <div class="form-group">
+                  <div class="form-row">
+                    <input type="text" id="name" class="form-input" placeholder="Your Name" required />
+                    <input type="email" id="email" class="form-input" placeholder="Your Email" required />
                   </div>
                 </div>
-                <div class="field">
-                  <input
-                    type="text"
-                    id="email-subject"
-                    placeholder="Subject"
-                    required
-                  />
+                <div class="form-group">
+                  <input type="text" id="subject" class="form-input" placeholder="Subject" required />
                 </div>
-                <div class="field textarea">
-                  <textarea
-                    id="email-message"
-                    cols="30"
-                    rows="5"
-                    placeholder="Message..."
-                    required
-                  ></textarea>
+                <div class="form-group">
+                  <textarea id="message" class="form-textarea" placeholder="Your Message" required></textarea>
                 </div>
-                <div>
-                  <button type="submit" class="btn" id="send-btn">
-                    Send Message
-                  </button>
-                </div>
+                <button type="submit" class="btn btn-primary" id="send-btn">
+                  Send Message
+                </button>
               </form>
             </div>
           </div>
         </div>
       </section>
-      <!-- Footer -->
-      <footer>
-        <div>
-          <p>&copy; 2024 | <a href="">Manaf.dev</a></p>
-        </div>
-      </footer>
     </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Mohammed Manaf. All rights reserved.</p>
+      </div>
+    </footer>
 
     <script src="scripts.js"></script>
   </body>
